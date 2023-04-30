@@ -1,0 +1,21 @@
+POST http://localhost:8080/supplier
+Content-Type: application/json
+
+{
+  "name": "Diyorbek",
+  "phoneNumber": "+998933333333"
+}
+###
+POST http://localhost:8080/warehouse
+Content-Type: application/json
+
+{
+  "name": "Havas"
+}
+###
+POST http://localhost:8080/currency
+Content-Type: application/json
+
+{
+  "name": "UZS"
+}
